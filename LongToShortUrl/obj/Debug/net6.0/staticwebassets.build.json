@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "+L+IVLR7cWFZi/YhxBEkW2XyRbaDqbaBLqw1kbkugVY=",
+  "Source": "LongToShortUrl",
+  "BasePath": "_content/LongToShortUrl",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "LongToShortUrl\\wwwroot",
+      "Source": "LongToShortUrl",
+      "ContentRoot": "C:\\Users\\kon11\\source\\repos\\LongToShortUrl\\LongToShortUrl\\wwwroot\\",
+      "BasePath": "_content/LongToShortUrl",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\kon11\\source\\repos\\LongToShortUrl\\LongToShortUrl\\wwwroot\\index.html",
+      "SourceId": "LongToShortUrl",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kon11\\source\\repos\\LongToShortUrl\\LongToShortUrl\\wwwroot\\",
+      "BasePath": "_content/LongToShortUrl",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\kon11\\source\\repos\\LongToShortUrl\\LongToShortUrl\\wwwroot\\js\\index.js",
+      "SourceId": "LongToShortUrl",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kon11\\source\\repos\\LongToShortUrl\\LongToShortUrl\\wwwroot\\",
+      "BasePath": "_content/LongToShortUrl",
+      "RelativePath": "js/index.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\index.js"
+    }
+  ]
+}
