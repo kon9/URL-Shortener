@@ -438,6 +438,16 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "LongToShortUrl.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/LongToShortUrl.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LongToShortUrl.Domain.dll": {}
+        }
       }
     }
   },
@@ -1068,10 +1078,16 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "LongToShortUrl.Domain/1.0.0": {
+      "type": "project",
+      "path": "../LongToShortUrl.Domain/LongToShortUrl.Domain.csproj",
+      "msbuildProject": "../LongToShortUrl.Domain/LongToShortUrl.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "LongToShortUrl.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.8",
       "Microsoft.EntityFrameworkCore.Sqlite >= 6.0.8"
     ]
@@ -1083,11 +1099,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kon11\\source\\repos\\LongToShortUrl\\LongToShortUrl\\LongToShortUrl.csproj",
+      "projectUniqueName": "C:\\Users\\kon11\\Desktop\\UrlShortebner\\LongToShortUrl\\LongToShortUrl.csproj",
       "projectName": "LongToShortUrl",
-      "projectPath": "C:\\Users\\kon11\\source\\repos\\LongToShortUrl\\LongToShortUrl\\LongToShortUrl.csproj",
+      "projectPath": "C:\\Users\\kon11\\Desktop\\UrlShortebner\\LongToShortUrl\\LongToShortUrl.csproj",
       "packagesPath": "C:\\Users\\kon11\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kon11\\source\\repos\\LongToShortUrl\\LongToShortUrl\\obj\\",
+      "outputPath": "C:\\Users\\kon11\\Desktop\\UrlShortebner\\LongToShortUrl\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1107,7 +1123,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\kon11\\Desktop\\UrlShortebner\\LongToShortUrl.Domain\\LongToShortUrl.Domain.csproj": {
+              "projectPath": "C:\\Users\\kon11\\Desktop\\UrlShortebner\\LongToShortUrl.Domain\\LongToShortUrl.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

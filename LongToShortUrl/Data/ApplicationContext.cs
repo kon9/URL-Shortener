@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using LongToShortUrl.Models;
+using LongToShortUrl.Domain;
 
 namespace LongToShortUrl
 {

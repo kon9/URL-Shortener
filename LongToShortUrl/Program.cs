@@ -1,4 +1,5 @@
 using LongToShortUrl;
+using LongToShortUrl.Domain.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,6 +9,7 @@ builder.Services.AddDbContext<ApplicationContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("Sqlite"));
 });
 builder.Services.AddControllers();
+builder.Services.AddTransient<IUrlShorteningService, UrlShorteningService>();
 
 var app = builder.Build();
 

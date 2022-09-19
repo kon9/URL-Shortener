@@ -1,14 +1,14 @@
+
 async function createUrl(longUrl) {
   const response = await fetch("api/url", {
     method: "POST",
     headers: { Accept: "application/json", "Content-Type": "application/json" },
     body: JSON.stringify({
-      longUrl: longUrl,
-      UrlCode: "null",
-      ShortUrl: "null",
+        longUrl: longUrl,
+        shortUrl: "null",
+        urlCode:"null"
     }),
   });
-
   if (response.ok === true) {
     const url = await response.json();
     document.querySelector("tbody").append(row(url));
@@ -39,11 +39,11 @@ function row(url) {
   tr.append(idTd);
 
   const longUrlTd = document.createElement("td");
-  longUrlTd.innerHTML = `<a href="${url.longUrl}">${url.longUrl}</a>`;
+  longUrlTd.innerHTML = `<a href="${url.longUrl}">${url.longUrl.slice(0,30)}</a>`;
   tr.append(longUrlTd);
 
   const shortUrlTd = document.createElement("td");
-  shortUrlTd.innerHTML = `<a href="${url.shortUrl}">${url.shortUrl}</a>`;
+    shortUrlTd.innerHTML = `<a href="${url.shortUrl}">${window.location.origin+url.shortUrl}</a>`;
   tr.append(shortUrlTd);
 
   const linksTd = document.createElement("td");
@@ -64,6 +64,7 @@ function row(url) {
 }
 
 document.getElementById("convertBtn").addEventListener("click", async () => {
-  const longUrl = document.getElementById("longUrl").value;
-  await createUrl(longUrl);
+    const longUrl = document.getElementById("longUrl").value;
+    document.getElementById("longUrl").value = '';
+    await createUrl(longUrl);
 });
