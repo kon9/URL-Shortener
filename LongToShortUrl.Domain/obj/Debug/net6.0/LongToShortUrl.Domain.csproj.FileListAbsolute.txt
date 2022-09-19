@@ -1,0 +1,12 @@
+C:\Users\kon11\Desktop\UrlShortebner\LongToShortUrl.Domain\bin\Debug\net6.0\LongToShortUrl.Domain.deps.json
+C:\Users\kon11\Desktop\UrlShortebner\LongToShortUrl.Domain\bin\Debug\net6.0\LongToShortUrl.Domain.dll
+C:\Users\kon11\Desktop\UrlShortebner\LongToShortUrl.Domain\bin\Debug\net6.0\ref\LongToShortUrl.Domain.dll
+C:\Users\kon11\Desktop\UrlShortebner\LongToShortUrl.Domain\bin\Debug\net6.0\LongToShortUrl.Domain.pdb
+C:\Users\kon11\Desktop\UrlShortebner\LongToShortUrl.Domain\obj\Debug\net6.0\LongToShortUrl.Domain.csproj.AssemblyReference.cache
+C:\Users\kon11\Desktop\UrlShortebner\LongToShortUrl.Domain\obj\Debug\net6.0\LongToShortUrl.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kon11\Desktop\UrlShortebner\LongToShortUrl.Domain\obj\Debug\net6.0\LongToShortUrl.Domain.AssemblyInfoInputs.cache
+C:\Users\kon11\Desktop\UrlShortebner\LongToShortUrl.Domain\obj\Debug\net6.0\LongToShortUrl.Domain.AssemblyInfo.cs
+C:\Users\kon11\Desktop\UrlShortebner\LongToShortUrl.Domain\obj\Debug\net6.0\LongToShortUrl.Domain.csproj.CoreCompileInputs.cache
+C:\Users\kon11\Desktop\UrlShortebner\LongToShortUrl.Domain\obj\Debug\net6.0\LongToShortUrl.Domain.dll
+C:\Users\kon11\Desktop\UrlShortebner\LongToShortUrl.Domain\obj\Debug\net6.0\ref\LongToShortUrl.Domain.dll
+C:\Users\kon11\Desktop\UrlShortebner\LongToShortUrl.Domain\obj\Debug\net6.0\LongToShortUrl.Domain.pdb
