@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace LongToShortUrl
+namespace LongToShortUrl.Domain.URLHelpers
 {
     //Base62 conversion algorithm https://en.wikipedia.org/wiki/Base64
     static public class ConversionAlgorithm
@@ -20,7 +20,7 @@ namespace LongToShortUrl
                 i /= Base;
             }
             return string.Join(string.Empty, sb.ToString().Reverse());
-            
+
         }
 
         public static int Decode(string s)

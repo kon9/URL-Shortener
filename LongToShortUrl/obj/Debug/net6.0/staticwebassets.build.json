@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5MEUsqKQFMIWf3PfqKNRJF/llAU45/z9ZRqaZXc3Hmg=",
+  "Hash": "fLASLk/TOJAiLKKtgOh/aTrdLXs9Gfa08jqkDv4ePF0=",
   "Source": "LongToShortUrl",
   "BasePath": "_content/LongToShortUrl",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "LongToShortUrl\\wwwroot",
       "Source": "LongToShortUrl",
-      "ContentRoot": "C:\\Users\\kon11\\Desktop\\UrlShortebner\\LongToShortUrl\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ko1\\Desktop\\Projects\\UrlShortebner\\LongToShortUrl\\wwwroot\\",
       "BasePath": "_content/LongToShortUrl",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\kon11\\Desktop\\UrlShortebner\\LongToShortUrl\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\ko1\\Desktop\\Projects\\UrlShortebner\\LongToShortUrl\\wwwroot\\index.html",
       "SourceId": "LongToShortUrl",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kon11\\Desktop\\UrlShortebner\\LongToShortUrl\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ko1\\Desktop\\Projects\\UrlShortebner\\LongToShortUrl\\wwwroot\\",
       "BasePath": "_content/LongToShortUrl",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\kon11\\Desktop\\UrlShortebner\\LongToShortUrl\\wwwroot\\js\\index.js",
+      "Identity": "C:\\Users\\ko1\\Desktop\\Projects\\UrlShortebner\\LongToShortUrl\\wwwroot\\js\\index.js",
       "SourceId": "LongToShortUrl",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kon11\\Desktop\\UrlShortebner\\LongToShortUrl\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ko1\\Desktop\\Projects\\UrlShortebner\\LongToShortUrl\\wwwroot\\",
       "BasePath": "_content/LongToShortUrl",
       "RelativePath": "js/index.js",
       "AssetKind": "All",

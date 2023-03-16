@@ -1,0 +1,14 @@
+﻿@model LongToShortUrl.Domain.Models.Url
+
+<h2>URL Shortener</h2>
+<div>
+    <label>Original URL:</label>
+    <input type="text" name="originalURL" value="@Model.LongUrl" disabled="disabled" />
+</div>
+<div>
+    <label>Shortened URL:</label>
+    <input type="text" name="shortenedURL" value="@Model.ShortUrl" disabled="disabled" />
+</div>
+<div>
+    <a asp-controller="URLShortener" asp-action="Index">Back to List</a>
+</div>
