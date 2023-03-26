@@ -11,8 +11,4 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.2" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\LongToShortUrl.Domain\LongToShortUrl.Domain.csproj" />
-  </ItemGroup>
-
 </Project>

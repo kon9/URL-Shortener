@@ -1,6 +1,8 @@
 using LongToShortUrl.Data.Context;
 using LongToShortUrl.Data.Repo;
-using LongToShortUrl.Service;
+using LongToShortUrl.Services;
+using LongToShortUrl.Services.ConversionAlgorithms;
+using LongToShortUrl.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,11 +11,11 @@ builder.Services.AddDbContext<ApplicationContext>(options =>
 {
     options.UseSqlite(builder.Configuration.GetConnectionString("Sqlite"));
 });
+
 builder.Services.AddControllers();
-
-builder.Services.AddTransient<IURLShortenerRepository, URLShortenerRepository>();
-builder.Services.AddTransient<IURLShortenerService, URLShortenerService>();
-
+builder.Services.AddScoped<IUrlRepository, UrlRepository>();
+builder.Services.AddScoped<IUrlShorteningService, UrlShorteningService>();
+builder.Services.AddScoped<IUrlConversionAlgorithm, Base62Converter>();
 builder.Services.AddMvc(options => options.EnableEndpointRouting = false);
 
 var app = builder.Build();
@@ -25,18 +27,13 @@ if (app.Environment.IsDevelopment())
     db.Database.EnsureCreated();
 }
 
-
-
 app.UseRouting();
-
-app.UseMvc(routes =>
+app.UseHttpsRedirection();
+app.UseEndpoints(endpoints =>
 {
-    routes.MapRoute(
-        name: "default",
-        template: "{controller=URLShortener}/{action=Index}/{id?}");
+    endpoints.MapControllers();
 });
 
-app.UseHttpsRedirection();
 
 app.Run();
 

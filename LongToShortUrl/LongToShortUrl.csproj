@@ -13,8 +13,7 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\LongToShortUrl.Data\LongToShortUrl.Data.csproj" />
-		<ProjectReference Include="..\LongToShortUrl.Domain\LongToShortUrl.Domain.csproj" />
-		<ProjectReference Include="..\LongToShortUrl.Service\LongToShortUrl.Service.csproj" />
+		<ProjectReference Include="..\LongToShortUrl.Services\LongToShortUrl.Services.csproj" />
 	</ItemGroup>
 
 	<ProjectExtensions>

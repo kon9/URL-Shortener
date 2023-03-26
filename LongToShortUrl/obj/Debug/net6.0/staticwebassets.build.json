@@ -1,54 +1,11 @@
 {
   "Version": 1,
-  "Hash": "fLASLk/TOJAiLKKtgOh/aTrdLXs9Gfa08jqkDv4ePF0=",
+  "Hash": "INaYXhkMhTfjAc5J5vKvRj4/t9o+8aLtnWupp2VTVX4=",
   "Source": "LongToShortUrl",
   "BasePath": "_content/LongToShortUrl",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [
-    {
-      "Name": "LongToShortUrl\\wwwroot",
-      "Source": "LongToShortUrl",
-      "ContentRoot": "C:\\Users\\ko1\\Desktop\\Projects\\UrlShortebner\\LongToShortUrl\\wwwroot\\",
-      "BasePath": "_content/LongToShortUrl",
-      "Pattern": "**"
-    }
-  ],
-  "Assets": [
-    {
-      "Identity": "C:\\Users\\ko1\\Desktop\\Projects\\UrlShortebner\\LongToShortUrl\\wwwroot\\index.html",
-      "SourceId": "LongToShortUrl",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ko1\\Desktop\\Projects\\UrlShortebner\\LongToShortUrl\\wwwroot\\",
-      "BasePath": "_content/LongToShortUrl",
-      "RelativePath": "index.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\index.html"
-    },
-    {
-      "Identity": "C:\\Users\\ko1\\Desktop\\Projects\\UrlShortebner\\LongToShortUrl\\wwwroot\\js\\index.js",
-      "SourceId": "LongToShortUrl",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ko1\\Desktop\\Projects\\UrlShortebner\\LongToShortUrl\\wwwroot\\",
-      "BasePath": "_content/LongToShortUrl",
-      "RelativePath": "js/index.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\index.js"
-    }
-  ]
+  "DiscoveryPatterns": [],
+  "Assets": []
 }

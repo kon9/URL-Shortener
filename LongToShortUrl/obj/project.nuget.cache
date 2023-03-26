@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JoqG7X8tEORU06ksJQ5zHCw977A3HjkkbvFhFcG3GM4ou/RnUVfjFuJRcq5wLPlwjyzX0/qscMWUZG029IOIiw==",
+  "dgSpecHash": "7TzYBSOyMddP+59aa5KsHIVjuihPXhIbrrig70HJ0uIbtrWci19RPSsEb68Bgx/mC1Ihdh+dEYOk0iZiFSONNA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ko1\\Desktop\\Projects\\UrlShortebner\\LongToShortUrl\\LongToShortUrl.csproj",
+  "projectFilePath": "C:\\Users\\ko1\\Desktop\\Projects\\UrlShortener\\LongToShortUrl\\LongToShortUrl.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ko1\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.2\\microsoft.data.sqlite.core.7.0.2.nupkg.sha512",
     "C:\\Users\\ko1\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.2\\microsoft.entityframeworkcore.7.0.2.nupkg.sha512",

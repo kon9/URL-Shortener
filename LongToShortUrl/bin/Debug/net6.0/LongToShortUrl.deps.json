@@ -9,8 +9,7 @@
       "LongToShortUrl/1.0.0": {
         "dependencies": {
           "LongToShortUrl.Data": "1.0.0",
-          "LongToShortUrl.Domain": "1.0.0",
-          "LongToShortUrl.Service": "1.0.0",
+          "LongToShortUrl.Services": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.2",
           "Microsoft.EntityFrameworkCore.Sqlite": "7.0.2"
         },
@@ -380,7 +379,6 @@
       },
       "LongToShortUrl.Data/1.0.0": {
         "dependencies": {
-          "LongToShortUrl.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.2",
           "Microsoft.EntityFrameworkCore.Sqlite": "7.0.2"
         },
@@ -388,18 +386,12 @@
           "LongToShortUrl.Data.dll": {}
         }
       },
-      "LongToShortUrl.Domain/1.0.0": {
-        "runtime": {
-          "LongToShortUrl.Domain.dll": {}
-        }
-      },
-      "LongToShortUrl.Service/1.0.0": {
+      "LongToShortUrl.Services/1.0.0": {
         "dependencies": {
-          "LongToShortUrl.Data": "1.0.0",
-          "LongToShortUrl.Domain": "1.0.0"
+          "LongToShortUrl.Data": "1.0.0"
         },
         "runtime": {
-          "LongToShortUrl.Service.dll": {}
+          "LongToShortUrl.Services.dll": {}
         }
       }
     }
@@ -590,12 +582,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "LongToShortUrl.Domain/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "LongToShortUrl.Service/1.0.0": {
+    "LongToShortUrl.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

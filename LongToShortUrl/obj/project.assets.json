@@ -517,7 +517,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "LongToShortUrl.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.2",
           "Microsoft.EntityFrameworkCore.Sqlite": "7.0.2"
         },
@@ -528,28 +527,17 @@
           "bin/placeholder/LongToShortUrl.Data.dll": {}
         }
       },
-      "LongToShortUrl.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/LongToShortUrl.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/LongToShortUrl.Domain.dll": {}
-        }
-      },
-      "LongToShortUrl.Service/1.0.0": {
+      "LongToShortUrl.Services/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "LongToShortUrl.Data": "1.0.0",
-          "LongToShortUrl.Domain": "1.0.0"
+          "LongToShortUrl.Data": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/LongToShortUrl.Service.dll": {}
+          "bin/placeholder/LongToShortUrl.Services.dll": {}
         },
         "runtime": {
-          "bin/placeholder/LongToShortUrl.Service.dll": {}
+          "bin/placeholder/LongToShortUrl.Services.dll": {}
         }
       }
     }
@@ -1219,22 +1207,16 @@
       "path": "../LongToShortUrl.Data/LongToShortUrl.Data.csproj",
       "msbuildProject": "../LongToShortUrl.Data/LongToShortUrl.Data.csproj"
     },
-    "LongToShortUrl.Domain/1.0.0": {
+    "LongToShortUrl.Services/1.0.0": {
       "type": "project",
-      "path": "../LongToShortUrl.Domain/LongToShortUrl.Domain.csproj",
-      "msbuildProject": "../LongToShortUrl.Domain/LongToShortUrl.Domain.csproj"
-    },
-    "LongToShortUrl.Service/1.0.0": {
-      "type": "project",
-      "path": "../LongToShortUrl.Service/LongToShortUrl.Service.csproj",
-      "msbuildProject": "../LongToShortUrl.Service/LongToShortUrl.Service.csproj"
+      "path": "../LongToShortUrl.Services/LongToShortUrl.Services.csproj",
+      "msbuildProject": "../LongToShortUrl.Services/LongToShortUrl.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "LongToShortUrl.Data >= 1.0.0",
-      "LongToShortUrl.Domain >= 1.0.0",
-      "LongToShortUrl.Service >= 1.0.0",
+      "LongToShortUrl.Services >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.2",
       "Microsoft.EntityFrameworkCore.Sqlite >= 7.0.2"
     ]
@@ -1246,11 +1228,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ko1\\Desktop\\Projects\\UrlShortebner\\LongToShortUrl\\LongToShortUrl.csproj",
+      "projectUniqueName": "C:\\Users\\ko1\\Desktop\\Projects\\UrlShortener\\LongToShortUrl\\LongToShortUrl.csproj",
       "projectName": "LongToShortUrl",
-      "projectPath": "C:\\Users\\ko1\\Desktop\\Projects\\UrlShortebner\\LongToShortUrl\\LongToShortUrl.csproj",
+      "projectPath": "C:\\Users\\ko1\\Desktop\\Projects\\UrlShortener\\LongToShortUrl\\LongToShortUrl.csproj",
       "packagesPath": "C:\\Users\\ko1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ko1\\Desktop\\Projects\\UrlShortebner\\LongToShortUrl\\obj\\",
+      "outputPath": "C:\\Users\\ko1\\Desktop\\Projects\\UrlShortener\\LongToShortUrl\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1271,14 +1253,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\ko1\\Desktop\\Projects\\UrlShortebner\\LongToShortUrl.Data\\LongToShortUrl.Data.csproj": {
-              "projectPath": "C:\\Users\\ko1\\Desktop\\Projects\\UrlShortebner\\LongToShortUrl.Data\\LongToShortUrl.Data.csproj"
+            "C:\\Users\\ko1\\Desktop\\Projects\\UrlShortener\\LongToShortUrl.Data\\LongToShortUrl.Data.csproj": {
+              "projectPath": "C:\\Users\\ko1\\Desktop\\Projects\\UrlShortener\\LongToShortUrl.Data\\LongToShortUrl.Data.csproj"
             },
-            "C:\\Users\\ko1\\Desktop\\Projects\\UrlShortebner\\LongToShortUrl.Domain\\LongToShortUrl.Domain.csproj": {
-              "projectPath": "C:\\Users\\ko1\\Desktop\\Projects\\UrlShortebner\\LongToShortUrl.Domain\\LongToShortUrl.Domain.csproj"
-            },
-            "C:\\Users\\ko1\\Desktop\\Projects\\UrlShortebner\\LongToShortUrl.Service\\LongToShortUrl.Service.csproj": {
-              "projectPath": "C:\\Users\\ko1\\Desktop\\Projects\\UrlShortebner\\LongToShortUrl.Service\\LongToShortUrl.Service.csproj"
+            "C:\\Users\\ko1\\Desktop\\Projects\\UrlShortener\\LongToShortUrl.Services\\LongToShortUrl.Services.csproj": {
+              "projectPath": "C:\\Users\\ko1\\Desktop\\Projects\\UrlShortener\\LongToShortUrl.Services\\LongToShortUrl.Services.csproj"
             }
           }
         }
@@ -1321,7 +1300,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
