@@ -8,15 +8,8 @@ This project is a simple URL shortener built using ASP.NET Core for the backend 
 ## Features
 
 - Shorten long URLs
-- Customizable URL conversion algorithms for flexibility
-- Uses SQLite and Entity Framework Core for data storage
+- Statistics on clicks on shortened links
 - Centralized exception handling with custom middleware
 
-# Backend
 
-- The backend is built using ASP.NET Core and consists of the following components:
-- UrlController: Handles incoming HTTP requests and routes them to the appropriate service
-- UrlShorteningService: Contains the core logic for URL shortening and conversion
-- UrlRepository: Handles data access and storage using Entity Framework Core and SQLite
-- ExceptionHandlingMiddleware: Custom middleware for centralized exception handling
   
